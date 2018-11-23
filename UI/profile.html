@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>send_IT_Courier_app</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="profile.css",/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="profile.js"></script>
+</head>
+<body class="body">
+    <div class="navbar">
+      
+
+        <a class="active" href="profile.html">Profile</a>
+        <a href="issues.html">Issues</a>       
+        <a href ="report.html">Report</a>
+        <a href="notifications.html">Notifications</a>
+        <a href="gps.html"><i class="material-icons">&#xe55c;</i></a>
+        <input type="text" placeholder="Search..">
+    </div>
+    <div>
+            <h2 style="text-align:center">My Profile</h2>
+
+            <div class="profile">
+                <div class="left">
+                        <div class="avatar">
+                                <div class="avatar img">
+                                    <img src="avatar.png" alt="Avatar woman">
+                                </div>
+                            </div>
+                    <div class="buttons"><br>
+                        <form action="/action_page.php"  method="GET"></form>
+                        <p><button type="submit" formaction="/action_page2.php">My Reports</button><br><br>
+                        <p><button>History</button><br><br>
+                        <p><button>Account settings</button></p></form>
+                      </div>
+                </div>    `
+                <div class="right">
+                    <div class inputs>
+                            <form action="/action_page.php"  > <br>
+                                User name<br>
+                             <input type="text" name="name" >
+                                <br><br>
+                                Email<br> 
+                                <input type="text" name="email" size="35">
+                                <br><br>
+                                Phone Number<br>
+                                <input type="text" name="Phone" size="35">
+                                <br><br>
+                                Change pin<br>
+                                <input type="text" name="pin" maxlength="8" size="35">  
+                    </div>
+                       
+                            <div class="gender">
+                                    <h4 style="text-align:left">Gender</h2>
+                            </div>
+                            <div class="btn-group">
+                                    <button style="font-size:24px"> <i class="fa fa-female">  </i></button>
+                                    <button id="male" style="font-size:24px"><i class="fa fa-male"></i></button>        
+                            </div>
+
+                            </form><br>
+                            
+                            <div class="Update">
+                                    <br>
+                                    <div class="update-button">
+                                                <form action="/action_page.php" method="POST">
+
+                                            <button  type="submit" style="font-size:20px" formaction="/action_page2.php">Update </button></form>
+                                    </div>
+                                    
+                            </div>
+                </div>
+
+             
+            </div>  
+            </div>
+    </div>
+             
+</body>
+</html>
