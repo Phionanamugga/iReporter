@@ -86,10 +86,11 @@ h3,p{
     height:30px;
     font-size:14px;
     box-shadow:0 0 5px;
+    text-align: center;
     -webkit-box-shadow:0 0 5px;}
     
     .button {
-        background-color:rgb(245, 90, 116); /* Gray */
+        background-color:rgb(245, 90, 116);
         border-radius: 5px;
         color: white;
         width:50%;
@@ -109,15 +110,60 @@ h3,p{
     
     @media only screen and (max-width: 800px) {
     input {
-            background-color: whitesmoke;
+            background-color:antiquewhite
             
         }}
-        @media only screen and (min-width: 800px) {
+        @media only screen and (max-width: 800px) {
             body {
-                    background-color:rgb(11, 73, 83);
+                    background-color:rgb(57, 104, 57);
                     
                 }}
+        
+        @media only screen and (min-width: 801px) {
+            body {
+                background-color:rgb(5, 45, 85);
+                            
+                        }}
+ 
+    .reset{
+        height: 350px;
+        width: 650px;
+        background-color: bisque;
+        margin-left:330px;
+    }
+ .form{
+     margin-left: 10px;
 
+ }
+    @media only screen and (max-width:600px) {
+        /* For mobile phones: */
+        header{
+            width: 50%;
+        }
+    }
+    @media only screen and (max-width:600px) {
+        /* For mobile phones: */
+        .reset{
+            width: 98%;
+            margin-left: 5px;
 
-    
+        }
+    }
+
+    @media only screen and (max-width:600px) {
+        /* For mobile phones: */
+        .form{
+            width: 120;
+            margin-left: 5px;
+
+        }
+    }
    
+    @media only screen and (max-width:600px) {
+        /* For mobile phones: */
+        .formm{
+            width: 50%;
+            margin-left: 5px;
+
+        }
+    }
