@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>iReporter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="report.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="report.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <a href="profile.html">Profile</a>
+        <a href="issues.html">Issues</a> 
+        <a class="active" href="report.html">Report</a>      
+        <a href="notifications.html">Notifications</a>
+        <a href="gps.html"><i class="material-icons">&#xe55c;</i></a> 
+        <input type="text" placeholder="Search..">   
+    </div>
+    <div class="reports"><br>
+   <label for="msg"><b>Issue title(required)</label>
+        <div class="textss"><textarea rows="4" cols="70"></textarea></div><br>
+        <label for="msg">Description</label>
+        <div class="description"><textarea rows="15" cols="70"></textarea></div><br>
+        <div class="checkbox">
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>Report anonymously to hide your identity
+        </div><br>
+        <div class="btn-group">
+            <label for="lname">Add location</label>
+            <input type="text" id="lname" name="lastname" placeholder="">
+            <button class="w3-btn w3-black">SUBMIT</button>
+            <button class="w3-btn w3-black">CANCEL</button>
+            <input type="button" class="w3-btn w3-black" value="EDIT">
+            <button class="w3-btn w3-black">DELETE</button> 
+        </div>
+        <div class="findlocation">
+            <button onclick="getLocation()">Find your co-ordinates</button>
+            <button onclick="getLocation()">Find your location on map</button>
+
+           <div id="mapholder"></div>
+        </div><br>
+    <div class="media">
+            <form action="/action_page.php">
+                <label class="images">Upload images</label>
+                <input type="file" name="pic" accept="file_extension|image/*">
+                <input type="submit">
+            </form><br>
+            <form action="/action_page.php">
+                <label class="videos">Upload videos</label>
+                <input type="file" name="pic" accept="file_extension|video/*">
+                <input type="submit">
+            </form>
+    </div>
+        </div>
+    </div>
+  
+  
+  
+    </div>
+                     
+   
+</div>
+    
+             
+</body>
+</html>

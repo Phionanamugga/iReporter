@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>iReporter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="issues.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="issues.js"></script>
+</head>
+<body>
+    <div class="navbar">
+    
+        <a href="profile.html">Profile</a>
+        <a class="active" href="issues.html">Issues</a>       
+        <a href ="report.html">Report</a>
+        <a href="notifications.html">Notifications</a>
+        <a href="gps.html"><i class="material-icons">&#xe55c;</i></a> 
+        <input type="text" placeholder="Search..">
+        
+        
+    </div>
+    
+    <div class="media1">
+           
+            <div class="video1"><br>
+              <p><strong></strong> Commons hospital management soliciting bribes from patients</p> 
+              <video width="80%" controls id="myvideo">
+                <source src="rain.mp4" type="video/mp4">
+                <source src="rain.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+              </video>
+              </div>
+              <div>
+                <button class="open-button" onclick="openForm()">comment</button>
+            
+            <div class="chat-popup" id="myForm">
+              <form action="/action_page.php" class="form-container">
+                <h1>Chat</h1>
+            
+                <label for="msg"><b>Message</b></label>
+                <textarea placeholder="Type message.." name="msg" required></textarea>
+            
+                <button type="submit" class="btn">Send</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+              </form>
+            </div>
+
+              <div class="video2">
+                <p><strong></strong>Corruption in top offices</p>    
+                <video  width="125%" controls id="myvideo">
+                  <source src="rain.mp4" type="video/mp4">
+                  <source src="rain.ogg" type="video/ogg">
+                  Your browser does not support the video tag.
+                </video>
+                </div>
+                <div>
+                  <button class="open-button" onclick="openForm()">comment</button>
+              
+              <div class="chat-popup" id="myForm">
+                <form action="/action_page.php" class="form-container">
+                  <h1>Chat</h1>
+              
+                  <label for="msg"><b>Message</b></label>
+                  <textarea placeholder="Type message.." name="msg" required></textarea>
+              
+                  <button type="submit" class="btn">Send</button>
+                  <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                </form>
+          
+
+</div>
+
+
+    
+</div>            
+</body>
+</html>
