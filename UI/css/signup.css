@@ -1,5 +1,6 @@
 /* Style the signup text boxes */
-input[type=text], select {
+input[type=text],
+select {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -18,7 +19,6 @@ input[type=password] {
     border-radius: 4px;
     box-sizing: border-box;
 }
-
 
 input[type=submit] {
     width: 20%;
@@ -41,12 +41,34 @@ div {
     padding: 20px;
 }
 
-.inputss{
-    height:415px;
-    width:600px;
-    background-color:rgb(212, 188, 188);
-    margin-left:300px;
+.inputss {
+    height: 415px;
+    width: 600px;
+    background-color: rgb(212, 188, 188);
+    margin-left: 300px;
     margin-top: 70px;
 }
-
-
+/* Add responsiveness for mobile devices */
+@media only screen and (min-width: 280px) and (max-width:480px){
+    .inputss {
+        width: 80%;
+        margin-left:0%;
+        margin-top: 40px;
+    }
+    input[type=submit]{
+        margin-left:10%;
+        width:24%;      
+    }
+}
+/* Add responsiveness for tablet device */
+@media only screen and (min-width:481px) and (max-width:780px){
+    .inputss {
+        width: 100%;
+        margin-left:0%;
+        margin-top: 40px;
+    }
+    input[type=submit]{
+        margin-left:10%;
+        width:30%;      
+    }
+}
