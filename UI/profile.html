@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>iReporter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/profile.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="body">
+    <div class="navbar">
+        <a class="active" href="profile.html">Profile</a>
+        <a href="issues.html">Issues</a>
+        <a href="report.html">Report</a>
+        <a href="notifications.html">Notifications</a>
+        <a href="gps.html"><i class="material-icons">&#xe55c;</i></a>
+        <input type="text" placeholder="Search..">
+        <a href="../index.html">LogOut</a>
+    </div>
+    <div>
+        <h2 id="myProfile">My Profile</h2>
+        <div class="profile">
+            <div class="left">
+                <h4>Add profile photo</h4>
+                <div class="avatar">
+                    <img src="image/avatar.png" alt="Avatar woman">
+                </div>
+                <div class="buttons">
+                    <form>
+                        <button type="submit">My Reports</button>
+                        <p><button>History</button></p>
+                        <p><button>Account settings</button></p>
+                    </form>
+                </div>
+            </div>
+            <div class="right">
+                <div class="inputs">
+                    <form>
+                        <label>User name</label><br>
+                        <input type="text" name="name" required><br>
+                        <label>Email</label><br>
+                        <input type="email" name="email" required><br>
+                        <label>Change password</label><br>
+                        <input type="password" name="password" required><br>
+                        <button type="submit" id="updateDetails">Update</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

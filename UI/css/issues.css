@@ -1,0 +1,206 @@
+/* Style the navigation bar */
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+  height: 55px;
+}
+
+.active {
+  background-color: crimson;
+  height: 55px;
+}
+
+.navbar input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+  border: 1px solid #ccc;
+}
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  border-radius: 3px;
+  width: 100px;
+  margin-left: 220px;
+  font-size:18px;
+  height: 40px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover,
+.open-button:hover {
+  opacity: 1;
+}
+
+.media1 {
+  height: 600px;
+  width: 550px;
+  background-color: wheat;
+  margin-top: 10px;
+  margin-left: 300px;
+  margin-right: 3px;
+}
+
+.video1 {
+  margin-left: 85px;
+}
+
+.video2 {
+  margin-left: 85px;
+  display: inline-block;
+}
+
+/* Add responsiveness for a mobile device */
+@media only screen and (min-width: 280px) and (max-width:480px) {
+.navbar{
+  width:100%;
+}
+  .media1 {
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+    margin-left:0px;
+  }
+  .navbar a {
+    padding: 6px;
+    font-size: 15px;
+  }
+  .navbar input[type=text] {
+    font-size: 10px;
+  }
+  body {
+    font-size:12px;
+  }
+  .open-button {
+    padding: 1px 2px;
+    width: 50px;
+    font-size:10px;
+    margin-left:120px;
+    height: 20px;
+  }
+  .video1 {
+    margin-left: 10px;
+  } 
+  .video2 {
+    margin-left:10px;
+    width:70%;
+  }
+}
+/* Add responsiveness for tablet device */
+@media only screen and (min-width:481px) and (max-width:780px) {
+  .navbar{
+    width:100%;
+  }
+    .media1 {
+      height: auto;
+      width: 100%;
+      margin-top: 10px;
+      margin-left:0px;
+    }
+    .navbar a {
+      padding: 6px;
+      font-size: 15px;
+    }
+    .navbar input[type=text] {
+      font-size: 10px;
+    }
+    body {
+      font-size:12px;
+    }
+    .open-button {
+      padding: 1px 2px;
+      width: 80px;
+      font-size:15px;
+      margin-left:120px;
+      height: 20px;
+    }
+    .video1 {
+      margin-left: 10px;
+    } 
+    .video2 {
+      margin-left:10px;
+      width:70%;
+    }
+  }
