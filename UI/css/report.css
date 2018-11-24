@@ -1,3 +1,4 @@
+/* Style the nav bar */
 .navbar {
   width: 100%;
   background-color: #555;
@@ -22,57 +23,92 @@
   height: 30px;
 
 }
+
 .navbar input[type=text] {
-    float: right;
-    padding: 6px;
-    margin-top: 8px;
-    margin-right: 16px;
-    border: none;
-    font-size: 17px;
-    border: 1px solid #ccc;  
-  }
-
-  
-@media screen and (max-width: 1000px) {
-  .navbar a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+  border: 1px solid #ccc;
 }
 
- .reports{
-   width:700px;
-   height: 600px;
-   margin-top: 15px;
-   text-align: center;
-   background-color: antiquewhite;
-   margin-left: 300px;
- }
+.reports {
+  width: 700px;
+  height: 600px;
+  margin-top: 15px;
+  text-align: center;
+  background-color: antiquewhite;
+  margin-left: 300px;
+}
 
+.issuetittle {
+  margin-top: 2px;
+}
 
-
- .issuetittle{
-   margin-top: 2px;
- }
- .textss{
+.textss {
   margin-left: 5px;
- }
+}
 
- .description{
+.description {
   margin-left: 5px;
- }
- 
-.btn-group{
+}
+
+.btn-group {
   margin-left: 10px;
-border-radius:2px;
-height: 40px;
+  border-radius: 2px;
+  height: 40px;
 
 }
 
-.checkbox{
+.checkbox {
   margin-left: 60px;
   text-align: left
 }
 
-  
+/* Style the text area boxes */
+#textareaone {
+  width: 70%;
+  height: 50px;
+}
+
+#textareatwo {
+  width: 90%;
+  height: 100px;
+}
+
+/* Add responsiveness for a mobile device */
+@media only screen and (min-width: 280px) and (max-width:480px) {
+  .navbar {
+    width: 100%;
+  }
+
+  .reports {
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+  }
+
+  #textareaone {
+    width: 80%;
+  }
+}
+
+/* Add responsiveness for tablet device */
+@media only screen and (min-width:481px) and (max-width:780px) {
+  .navbar {
+    width: 100%;
+  }
+
+  .reports {
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+  }
+
+  #textareaone {
+    width: 80%;
+  }
+
+}
