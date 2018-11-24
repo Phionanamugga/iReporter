@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>send_IT_Courier_app</title>
+    <title>iReporter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="issues.css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -11,13 +11,7 @@
 </head>
 <body>
     <div class="navbar">
-            <div id="mySidenav" class="sidenav">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                    <a href="#">About</a>
-                    <a href="#">Help</a>
-                    <a href="#">Contact</a>
-                  </div>
-        <button class="openbtn" onclick="openNav()">☰</button>
+    
         <a href="profile.html">Profile</a>
         <a class="active" href="issues.html">Issues</a>       
         <a href ="report.html">Report</a>
@@ -27,104 +21,59 @@
         
         
     </div>
-    <div class="media">
-            <div class="video1">
-                    <p><strong></strong> Corruption in court</p>
-                    
-                    <video width="40%" controls id="myvideo">
-                      <source src="rain.mp4" type="video/mp4">
-                      <source src="rain.ogg" type="video/ogg">
-                      Your browser does not support the video tag.
-                    </video><br>
-                    <div>
-                            <button class="open-button" onclick="openForm()">comment</button>
-                        
-                        <div class="chat-popup" id="myForm">
-                          <form action="/action_page.php" class="form-container">
-                            <h1>Chat</h1>
-                        
-                            <label for="msg"><b>Message</b></label>
-                            <textarea placeholder="Type message.." name="msg" required></textarea>
-                        
-                            <button type="submit" class="btn">Send</button>
-                            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-                          </form>
-                        </div>
-                    </div>
-                    <div class="video2">
-                        <p><strong></strong> Corruption in hospital</p>
-                        
-                        <video width="40%" controls id="myvideo">
-                          <source src="rain.mp4" type="video/mp4">
-                          <source src="rain.ogg" type="video/ogg">
-                          Your browser does not support the video tag.
-                        </video>
-                        </div>
-                        
-                    <div>
-                        <button class="open-button" onclick="openForm()">comment</button>
-                    
-                    <div class="chat-popup" id="myForm">
-                      <form action="/action_page.php" class="form-container">
-                        <h1>Chat</h1>
-                    
-                        <label for="msg"><b>Message</b></label>
-                        <textarea placeholder="Type message.." name="msg" required></textarea>
-                    
-                        <button type="submit" class="btn">Send</button>
-                        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-                      </form>
-                    </div>
+    
+    <div class="media1">
+           
+            <div class="video1"><br>
+              <p><strong></strong> Commons hospital management soliciting bribes from patients</p> 
+              <video width="80%" controls id="myvideo">
+                <source src="rain.mp4" type="video/mp4">
+                <source src="rain.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+              </video>
+              </div>
+              <div>
+                <button class="open-button" onclick="openForm()">comment</button>
+            
+            <div class="chat-popup" id="myForm">
+              <form action="/action_page.php" class="form-container">
+                <h1>Chat</h1>
+            
+                <label for="msg"><b>Message</b></label>
+                <textarea placeholder="Type message.." name="msg" required></textarea>
+            
+                <button type="submit" class="btn">Send</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+              </form>
+            </div>
 
-                    <div class="video3">
-                            <p><strong></strong> Corruption in court</p>
-                            
-                            <video width="40%" controls id="myvideo">
-                              <source src="rain.mp4" type="video/mp4">
-                              <source src="rain.ogg" type="video/ogg">
-                              Your browser does not support the video tag.
-                            </video><br>
-                            <div>
-                                    <button class="open-button" onclick="openForm()">comment</button>
-                                
-                                <div class="chat-popup" id="myForm">
-                                  <form action="/action_page.php" class="form-container">
-                                    <h1>Chat</h1>
-                                
-                                    <label for="msg"><b>Message</b></label>
-                                    <textarea placeholder="Type message.." name="msg" required></textarea>
-                                
-                                    <button type="submit" class="btn">Send</button>
-                                    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-                                  </form>
-
-                                  <div class="video1">
-                                        <p><strong></strong> Corruption in court</p>
-                                        
-                                        <video width="40%" controls id="myvideo">
-                                          <source src="rain.mp4" type="video/mp4">
-                                          <source src="rain.ogg" type="video/ogg">
-                                          Your browser does not support the video tag.
-                                        </video><br>
-                                        <div>
-                                                <button class="open-button" onclick="openForm()">comment</button>
-                                            
-                                            <div class="chat-popup" id="myForm">
-                                              <form action="/action_page.php" class="form-container">
-                                                <h1>Chat</h1>
-                                            
-                                                <label for="msg"><b>Message</b></label>
-                                                <textarea placeholder="Type message.." name="msg" required></textarea>
-                                            
-                                                <button type="submit" class="btn">Send</button>
-                                                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-                                              </form>
-                    
-                    
-                    
+              <div class="video2">
+                <p><strong></strong>Corruption in top offices</p>    
+                <video  width="125%" controls id="myvideo">
+                  <source src="rain.mp4" type="video/mp4">
+                  <source src="rain.ogg" type="video/ogg">
+                  Your browser does not support the video tag.
+                </video>
+                </div>
+                <div>
+                  <button class="open-button" onclick="openForm()">comment</button>
+              
+              <div class="chat-popup" id="myForm">
+                <form action="/action_page.php" class="form-container">
+                  <h1>Chat</h1>
+              
+                  <label for="msg"><b>Message</b></label>
+                  <textarea placeholder="Type message.." name="msg" required></textarea>
+              
+                  <button type="submit" class="btn">Send</button>
+                  <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                </form>
+          
 
 </div>
+
+
     
-             
+</div>            
 </body>
 </html>

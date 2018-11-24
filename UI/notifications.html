@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>send_IT_Courier_app</title>
+    <title>iReporter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="notifications.css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -11,13 +11,7 @@
 </head>
 <body>
     <div class="navbar">
-            <div id="mySidenav" class="sidenav">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                    <a href="#">About</a>
-                    <a href="#">Help</a>
-                    <a href="#">Contact</a>
-                  </div>  
-        <button class="openbtn" onclick="openNav()">☰</button>
+          
         <a href="profile.html">Profile</a>
         <a href="issues.html">Issues</a>       
         <a href ="report.html">Report</a>
@@ -25,30 +19,29 @@
         <a href="gps.html"><i class="material-icons">&#xe55c;</i></a> 
         <input type="text" placeholder="Search..">
     </div>
-    <div class="notifications">
+    <div class="notifications"><br>
         <div class="alert">
-                <span class="closebtn">&times;</span>  
-                <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
+                <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>  
+               Corrupt court official arrested
               </div>
               
               <div class="alert success">
-                <span class="closebtn">&times;</span>  
-                <strong>Success!</strong> Indicates a successful or positive action.
+                <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>  
+                 Stolen security lights on parker street have been replaced.
               </div>
-              
               <div class="alert info">
-                <span class="closebtn">&times;</span>  
-                <strong>Info!</strong> Indicates a neutral informative change or action.
+                <span class="closebtn" onclick="this.parentElement.style.display='none';">&times; </span>  
+                  Corrupt doctors in Pearl national hospital have been disciplined.
               </div>
-              
               <div class="alert warning">
-                <span class="closebtn">&times;</span>  
-                <strong>Warning!</strong> Indicates a warning that might need attention.
+                <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>  
+              The inspector general is investigating corruption cases in the auditor generals office reported on may 5th 2018.
               </div>
-    </div>
-   
-          
-    
+              <div class="alert warning">
+                <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>  
+                Big open man hole sighted on rorwo street kakonj division.
+              </div>
              
+    </div>          
 </body>
 </html>
