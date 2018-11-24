@@ -1,10 +1,26 @@
+/* Style the profile title */
+#myProfile {
+  text-align: center;
+}
+
+/* Style the update details button */
+#updateDetails {
+  width: 30%;
+  margin-left: 2%;
+  margin-top: 5%;
+  font-size: 18px;
+
+}
+
+/* Style the nav bar */
 .navbar {
   width: 100%;
   background-color: #555;
   overflow: auto;
-  
+
 }
 
+/* Style the navbar links */
 .navbar a {
   float: left;
   padding: 12px;
@@ -13,6 +29,7 @@
   font-size: 17px;
 }
 
+/* Style the navbar links on hover */
 .navbar a:hover {
   background-color: #000;
   height: 30px;
@@ -23,67 +40,61 @@
   height: 30px;
 
 }
+
+/* Style the navbar text search */
 .navbar input[type=text] {
-    float: right;
-    padding: 6px;
-    margin-top: 8px;
-    margin-right: 16px;
-    border: none;
-    font-size: 17px;
-    border: 1px solid #ccc;  
-  }
-
-  
-@media screen and (max-width: 1000px) {
-  .navbar a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+  border: 1px solid #ccc;
 }
 
-
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
+/* Style the inputs form */
+.inputs {
+  margin-top: 20%;
 }
 
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
+/* Style the text boxes in the input form*/
+.inputs input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
 }
 
-.sidenav a:hover { 
-    color: #f1f1f1;
+.inputs input[type=email] {
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
 }
 
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+.inputs input[type=password] {
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
 }
 
-@media screen and (min-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+/* Style the update details card */
+.right {
+  float: right;
+  width: 59%;
+  margin-top: 63px;
+  height: 88%;
+  background-color: wheat;
+  text-align: center;
+
 }
 
+/* Style the profile card */
 .profile {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 700px;
   margin: auto;
   text-align: center;
@@ -92,31 +103,20 @@
   background-color: aliceblue;
 }
 
-.body{
+/* Style the body */
+.body {
   background-color: rgb(49, 136, 136);
 }
 
-.left{
+/* Style the left section of the card */
+.left {
   float: left;
-  width:35%;
-  margin-right:4%;
+  width: 35%;
+  margin-right: 4%;
   margin-left: 1%;
-margin-top: 5px;
+  margin-top: 5px;
   height: 100%;
   text-align: center;
-
-}
-
-.right{
-  float: left;
-  width:59%;
-  margin-top:63px;
- height:88%;
-  background-color:wheat;
-  text-align: center;
-  
-  
-
 }
 
 .avatar {
@@ -125,77 +125,138 @@ margin-top: 5px;
   height: 220px;
   margin-left: 5px;
   margin-top: 10px;
-  background-color:whitesmoke;
+  background-color: whitesmoke;
 }
 
-/* Style the image inside the centered container, if needed */
 .avatar img {
   width: 100%;
   height: 220px;
-  margin-left:0px;
+  margin-left: 0px;
   margin-top: 0%;
 }
 
-.buttons{
-  margin-top:25px;
+/* Style the left buttons */
+.buttons {
+  margin-top: 25px;
   vertical-align: left;
   width: 100%;
   height: 250px;
   margin-left: 5px;
-  background-color:gray;
+  background-color: gray;
   cursor: pointer;
 }
-
 
 button {
   border: none;
   outline: 0;
   display: inline-block;
   padding: 8px;
-  color:black;
+  color: black;
   text-align: center;
   cursor: pointer;
   width: 100%;
   font-size: 18px;
 }
 
-.Update {height:220px;
-  background-color:whitesmoke;
-margin-top: 30px;
-}
-
-
-.btn-group button {
-  background-color: #4CAF50; /* Green background */
-  border: 1px solid green; /* Green border */
-  color: white; /* White text */
-  padding: 10px 24px; /* Some padding */
-  cursor: pointer; /* Pointer/hand icon */
-  float: left; /* Float the buttons side by side */
-  width: 100px;
-  margin-left: 50px;
-  height:40px;
-}
-
-/* Clear floats (clearfix hack) */
-.btn-group:after {
-
-  clear: both;
-  display: table;
-}
-
-.btn-group button:not(:last-child) {
-  border-right: none; /* Prevent double borders */
-}
-
 /* Add a background color on hover */
-.btn-group button:hover {
-  background-color: #3e8e41;
+button:hover {
+  background-color: lightslategray;
 }
 
-.update-button{
-  width: 200px;
-  margin-left: 100px;
-  margin-top:40px;
-  background-color: aquamarine;
+/* Add responsiveness for mobile devices */
+@media only screen and (min-width: 280px) and (max-width:480px) {
+  .navbar {
+    width: 90%;
+    padding: 5px 1px;
+    overflow: auto;
+
+  }
+
+  .left,
+  .right {
+    width: 100%;
+    padding: 0;
+  }
+
+  .avatar {
+    width: 40%;
+    height: 70px;
+  }
+
+  .avatar img {
+    width: 90%;
+    height: 110px;
+    margin-left: 80%;
+  }
+
+  .profile {
+    width: 90%;
+    margin-left: 2%;
+  }
+
+  .buttons {
+    margin-top: 45px;
+    width: 100%;
+    height: 100px;
+  }
+
+  .left {
+    height: 50%;
+  }
+
+  .right {
+    height: 55%;
+  }
+
+}
+
+/* Add responsiveness for tablet device */
+@media only screen and (min-width:481px) and (max-width:780px) {
+
+  .navbar {
+    width: 100%;
+    padding: 5px 1px;
+    overflow: auto;
+
+  }
+
+  .left,
+  .right {
+    width: 100%;
+    padding: 0;
+  }
+
+  .avatar {
+    width: 40%;
+    height: 70px;
+  }
+
+  .avatar img {
+    width: 90%;
+    height: 110px;
+    margin-left: 80%;
+  }
+
+  .profile {
+    width: 100%;
+    margin-left: 2%;
+  }
+
+  .buttons {
+    margin-top: 45px;
+    width: 100%;
+    height: 100px;
+  }
+
+  .left {
+    height: 50%;
+  }
+
+  .right {
+    height: 55%;
+  }
+
+  .inputs {
+    margin-top: 5%;
+  }
 }

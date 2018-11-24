@@ -17,16 +17,14 @@
     <div class="reset"><br><br><br>
         <div class="form">
             <div class="formm">
-                <form id="myform" name="myform">
+                <form id="myform" name="myform" action="UI/profile.html">
                     <label>Username</label>
-                    <input placeholder type="text"><br><br><br>
+                    <input placeholder type="text" required><br><br><br>
                     <label>Password </label>
-                    <input placeholder type="password">
+                    <input placeholder type="password" required>
+                    <input type="submit" class="button" value="Login" />
                 </form>
             </div>
-            <form action="profile.html">
-                <input type="submit" class="button" value="Login" />
-            </form>
             <div id="reminder">
                 Forgot <a href="#">password?</a><br>
                 Not a member? <a href="signup.html">SignUp</a>
