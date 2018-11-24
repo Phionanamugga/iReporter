@@ -1,12 +1,5 @@
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-}
-
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-}
-
 var elem = document.getElementById("myvideo");
+
 function openFullscreen() {
   if (elem.requestFullscreen) {
     elem.requestFullscreen();
@@ -20,9 +13,9 @@ function openFullscreen() {
 }
 
 function openForm() {
-    document.getElementById("myForm").style.display = "block";
+  document.getElementById("myForm").style.display = "block";
 }
 
 function closeForm() {
-    document.getElementById("myForm").style.display = "none";
+  document.getElementById("myForm").style.display = "none";
 }
