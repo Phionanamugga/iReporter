@@ -33,7 +33,7 @@ input {
 
 /* Style the form body */
 .reset {
-    height: 350px;
+    height: 430px;
     width: 650px;
     background-color: bisque;
     margin-left: 330px;
@@ -48,6 +48,7 @@ body {
 /* Style the forgot password query */
 #reminder {
     text-align: center;
+    margin-top: 10px;
 }
 
 /* Add responsiveness for a mobile device */
