@@ -32,6 +32,15 @@
     font-size: 17px;
     border: 1px solid #ccc;  
   }
+
+  /* Style the navbar text search */
+.navbar button[type=submit] {
+  float: right;
+  padding: 6px;
+  width: 30px;
+  height: 34px;
+  margin-top: 8px;
+
   #map{
     height:auto;
     width:10%;
