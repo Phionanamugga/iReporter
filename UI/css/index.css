@@ -6,7 +6,7 @@ label {
 
 /* Style the input boxes */
 input {
-    width: 500px;
+    width: 350px;
     height: 30px;
     font-size: 14px;
     text-align: center;
@@ -22,29 +22,29 @@ input {
     height: 1%;
     width: 40%;
     margin-left: 30%;
-    margin-top: 4%;
+    margin-top: 7%;
     font-size: 16px;
 }
 
 /* Style the title */
 .header {
-    color: antiquewhite
+    color: antiquewhite;
 }
 
 /* Style the form body */
 .reset {
-    height: 430px;
-    width: 650px;
+    height: 460px;
+    width: 500px;
+    border-radius: 5px;
     background-color: bisque;
-    margin-left: 330px;
+    margin-left: 430px;
 }
 
 /* Style the body */
 body {
-    background-color: rgb(5, 45, 85);
+    background-color:rgb(5, 45, 85);
 
 }
-
 /* Style the forgot password query */
 #reminder {
     text-align: center;

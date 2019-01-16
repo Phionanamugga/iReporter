@@ -34,6 +34,16 @@
   border: 1px solid #ccc;
 }
 
+
+/* Style the navbar text search */
+.navbar button[type=submit] {
+  float: right;
+  padding: 6px;
+  width: 30px;
+  height: 34px;
+  margin-top: 8px;
+}
+
 /* The alert message box */
 .alert {
   padding: 20px;
@@ -66,7 +76,7 @@
   margin-top: 20px;
   background-color: sandybrown;
   margin-left: 350px;
-
+  overflow: hidden;
 }
 
 /* Add responsiveness for a mobile device */

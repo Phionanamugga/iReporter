@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/notifications.css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="js/notifications.js"></script>
 </head>
 
@@ -19,6 +20,9 @@
         <a class="active" href="notifications.html">Notifications</a>
         <a href="gps.html"><i class="material-icons">&#xe55c;</i></a>
         <input type="text" placeholder="Search..">
+        <form action="/action_page">
+        <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
         <a href="../index.html">LogOut</a>
     </div>
     <div class="notifications"><br>
@@ -46,6 +50,16 @@
             Big open man hole you notified us about along kawempe road has been barricaded as measures are being taken
             for it to be closed.
         </div>
+        <div class="alert">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            Provide more images about the corrupt doctors redflag recorded that you notified us about on 06/9/2018
+        </div>
+
+        <div class="alert success">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            Provide more information about the location of the intervention record on Mawanda road that you reported in on 3/12/2018.
+        </div>
+       
     </div>
 </body>
 
