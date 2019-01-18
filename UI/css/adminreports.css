@@ -23,15 +23,27 @@
     height: 55px;
   }
   
-  .navbar input[type=text] {
-    float: right;
-    padding: 6px;
-    margin-top: 8px;
-    margin-right: 16px;
-    border: none;
-    font-size: 17px;
-    border: 1px solid #ccc;
-  }
+ /* Style the navbar text search */
+.navbar input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+  border: 1px solid #ccc;
+}
+
+/* Style the navbar text search */
+.navbar button[type=submit] {
+  float: right;
+  padding: 6px;
+  width: 30px;
+  height: 34px;
+  margin-top: 8px;
+}
+
+
   /* Style the body */
   body {
     font-family: Arial, Helvetica, sans-serif;
